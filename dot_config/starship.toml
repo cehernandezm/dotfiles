@@ -1,0 +1,33 @@
+format = """
+$directory\
+$git_branch\
+$aws\
+$kubernetes\
+$character
+"""
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+fish_style_pwd_dir_length = 1
+
+[git_branch]
+symbol = "  "
+style = "bold purple"
+format = "on [$symbol$branch]($style) "
+
+[aws]
+symbol = "☁️  "
+style = "bold yellow"
+format = "on [$symbol($profile)]($style) "
+
+[kubernetes]
+symbol = "☸️  "
+style = "bold blue"
+format = "at [$symbol$context]($style) "
+
+[character]
+success_symbol = "❯"
+error_symbol = "❌ ❯"
+
+

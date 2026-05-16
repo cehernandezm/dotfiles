@@ -1,0 +1,14 @@
+font-family = "FiraCode Nerd Font"
+font-size = 13
+
+# CORRECCIÓN DE BORDES: Mantiene los botones de cerrar/minimizar integrados limpiamente
+window-decoration = client
+
+# Ajuste de espacio interno para que el texto no toque el borde
+window-padding-x = 12
+window-padding-y = 12
+scrollback-limit = 100000
+
+# CORRECCIÓN DE TRANSPARENCIA: Esta es la sintaxis moderna de Ghostty
+background-opacity = 0.85
+background-blur = true
