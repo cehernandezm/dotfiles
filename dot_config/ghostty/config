@@ -14,3 +14,6 @@ background-blur = true
 
 # Color Palette
 theme = dark-pastel
+
+# Global Hotkey (Summon Ghostty from anywhere)
+keybind = global:cmd+shift+g=toggle_quick_terminal
