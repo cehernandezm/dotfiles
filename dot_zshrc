@@ -119,4 +119,4 @@ export EDITOR="nano"
 # Enable z for smart directory navigation
 source $(brew --prefix)/etc/profile.d/z.sh
 
-
+PROMPT_DIRTRUNC=3
