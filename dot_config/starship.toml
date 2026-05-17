@@ -7,8 +7,11 @@ $kubernetes\
 $character
 """
 
-# Custom Color Palette
-[palette]
+# Tell Starship to use the custom 'zen' palette
+palette = "zen"
+
+# Custom Color Palette Definitions
+[palettes.zen]
 zen_cyan = "#89ddff"
 zen_purple = "#c792ea"
 zen_yellow = "#ffcb6b"

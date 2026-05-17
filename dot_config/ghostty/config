@@ -3,7 +3,7 @@ font-family = "FiraCode Nerd Font"
 font-size = 13
 
 # Window Styles (Zen Aesthetics)
-window-decoration = false
+window-decoration = client
 window-padding-x = 16
 window-padding-y = 16
 scrollback-limit = 100000
