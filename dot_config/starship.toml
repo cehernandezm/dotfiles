@@ -1,3 +1,4 @@
+# Main Prompt Layout
 format = """
 $directory\
 $git_branch\
@@ -6,28 +7,34 @@ $kubernetes\
 $character
 """
 
+# Custom Color Palette
+[palette]
+zen_cyan = "#89ddff"
+zen_purple = "#c792ea"
+zen_yellow = "#ffcb6b"
+zen_blue = "#82b1ff"
+
+# Prompt Modules Styling
 [directory]
-style = "bold cyan"
+style = "bold zen_cyan"
 truncation_length = 3
 fish_style_pwd_dir_length = 1
 
 [git_branch]
 symbol = "  "
-style = "bold purple"
+style = "bold zen_purple"
 format = "on [$symbol$branch]($style) "
 
 [aws]
 symbol = "☁️  "
-style = "bold yellow"
+style = "bold zen_yellow"
 format = "on [$symbol($profile)]($style) "
 
 [kubernetes]
 symbol = "☸️  "
-style = "bold blue"
+style = "bold zen_blue"
 format = "at [$symbol$context]($style) "
 
 [character]
 success_symbol = "❯"
 error_symbol = "❌ ❯"
-
-
