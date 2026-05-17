@@ -119,11 +119,4 @@ export EDITOR="nano"
 # Enable z for smart directory navigation
 source $(brew --prefix)/etc/profile.d/z.sh
 
-# Load local secret environment variables if the file exists
-   if [ -f ~/.env ]; then
-       source ~/.env
-   fi
 
-   # Claude Code Multitasking Profiles
-   alias claude-dydd="export ANTHROPIC_API_KEY=\$CLAUDE_DYDD_KEY; claude"
-   alias claude-personal="export ANTHROPIC_API_KEY=\$CLAUDE_PERSONAL_KEY; claude"
